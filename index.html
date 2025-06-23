@@ -6,41 +6,39 @@
   <title>Категорії</title>
 </head>
 <body>
+  <input id="font-size-control" type="range" min="10" max="100" value="16" />
+  <br />
+  <span id="text">Абракадабра!</span>
+  <form>
+    <p>Choose a color:</p>
+    <label>
+      <input type="radio" name="color" value="red" checked />
+      Red
+    </label>
+    <label>
+      <input type="radio" name="color" value="white" />
+      White
+    </label>
+    <label>
+      <input type="radio" name="color" value="green" />
+      Green
+    </label>
+  </form>
 
-  <ul id="categories">
-    <li class="item">
-      <h2>Тварини</h2>
-      <ul>
-        <li>Кіт</li>
-        <li>Хом'як</li>
-        <li>Кінь</li>
-        <li>Папуга</li>
-      </ul>
-    </li>
-    
-    <li class="item">
-      <h2>Продукти</h2>
-      <ul>
-        <li>Хліб</li>
-        <li>Петрушка</li>
-        <li>Сир</li>
-      </ul>
-    </li>
-    
-    <li class="item">
-      <h2>Технології</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Node</li>
-      </ul>
-    </li>
-  </ul>
-  <ul id="ingredients"></ul>
-  <ul id="gallery" class="gallery"></ul>
+  <input type="text" placeholder="Ваше ім'я?" id="name-input" />
+<h1>Привіт, <span id="name-output">незнайомець</span>!</h1>
 
-  <script src="./js/DOM2.js"></script>
+<input
+
+  type="text"
+
+  id="validation-input"
+
+  data-length="6"
+
+  placeholder="Введи 6 символів"/>
+  
+
+  <script src="./js/homework-event.js"></script>
 </body>
 </html>
